@@ -8,10 +8,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 50px;
 }
 
 .header-menu {
@@ -35,6 +32,7 @@
   width: 0px;
   background: var(--cor-0);
   margin-top: 4px;
+
   transition: 0.3s;
   position: absolute;
 }

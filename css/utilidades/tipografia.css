@@ -1,14 +1,21 @@
 .texto-grande {
   font-size: 4rem;
   line-height: 1.125;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
-.texto-medio {
+.textos-geral {
   font-size: 1.5rem;
   line-height: 1.5;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.texto-pequeno {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -16,7 +23,7 @@
   .texto-grande {
     font-size: 3rem;
   }
-  .texto-medio {
+  .textos-geral {
     font-size: 1.125rem;
   }
 }
@@ -25,7 +32,11 @@
   .texto-grande {
     font-size: 2rem;
   }
-  .texto-medio {
+  .textos-geral {
     font-size: 1.25rem;
   }
 }
+
+/* .texto-medio {
+  font-size: ;
+} */

@@ -1,0 +1,42 @@
+.escolha-bg {
+  box-sizing: border-box;
+  padding: 20px;
+  background: var(--cor-11);
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.container-escolha {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.img-escolha img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.img-escolha {
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+.escolha-textos {
+  margin-top: 60px;
+  display: grid;
+  gap: 30px;
+}
+
+.container-escolha-2 {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.container-escolha-2-1 {
+  display: grid;
+  gap: 20px;
+}

@@ -1,0 +1,45 @@
+.bicicletas-container {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  overflow: auto;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.bicicletas-container li {
+  min-width: 250px;
+}
+
+.texto-container-bicicletas {
+  padding: 20px 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.nome-bike {
+  display: flex;
+  align-items: center;
+  color: var(--cor-11);
+  font-size: 1.5rem;
+}
+
+.nome-bike::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  background: var(--cor-p1);
+  display: inline-block;
+}
+
+.texto-container-bicicletas p {
+  padding-left: 20px;
+  color: var(--cor-9);
+  font-size: 1.2rem;
+}
+
+a:hover .nome-bike::before {
+  width: 20px;
+  transition: 0.2s;
+}
