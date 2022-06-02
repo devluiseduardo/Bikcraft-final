@@ -5,7 +5,7 @@
   font-weight: 600;
 }
 
-.textos-geral {
+.texto-geral {
   font-size: 1.5rem;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
@@ -23,7 +23,7 @@
   .texto-grande {
     font-size: 3rem;
   }
-  .textos-geral {
+  .texto-geral {
     font-size: 1.125rem;
   }
 }
@@ -32,7 +32,7 @@
   .texto-grande {
     font-size: 2rem;
   }
-  .textos-geral {
+  .texto-geral {
     font-size: 1.25rem;
   }
 }
