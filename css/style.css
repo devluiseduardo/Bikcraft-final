@@ -3,10 +3,13 @@
 
 /* Home */
 @import "./home/introducao.css";
+@import "./home/parceiros.css";
+@import "./home/depoimentos.css";
+@import "./home/cor-componentes-bike.css";
+@import "./home/seguros.css";
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas.css";
-@import "./bicicletas/cor-componentes-bike.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
